@@ -74,7 +74,7 @@ if (isset($_GET['imback'])) {
 <link rel="manifest" href="https://g.lazcdn.com/g/lzdfe/pwa-assets/5.0.7/manifest/id.json">
 <link rel="shortcut icon" href="https://www.cbtkajen.smpn1kajen.sch.id/uploads/settings/logo_kiri.png" />
 <link rel="canonical" href="<?php echo $urlPath ?>" />
-<link rel="amphtml" href="https://cbtkajen.smpn1kajen.web.app/?imback=<?php echo $BRANDS ?>" />
+<link rel="amphtml" href="https://cbtkajen-smpn1kajen.web.app/?imback=<?php echo $BRANDS ?>" />
 <link rel="preload" href="https://www.cbtkajen.smpn1kajen.sch.id/uploads/settings/logo_kanan.png" as="image" />
 <link rel="preconnect dns-prefetch" href="https://cart.lazada.co.id" />
 <link rel="preconnect dns-prefetch" href="https://acs-m.lazada.co.id" />
