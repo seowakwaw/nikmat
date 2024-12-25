@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaxLeaf | Login</title>
+    <link href="https://sales.taxleaf.com:443/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://sales.taxleaf.com:443/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="https://sales.taxleaf.com:443/assets/css/animate.css" rel="stylesheet">
+    <link href="https://sales.taxleaf.com:443/assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body class="gray-bg login-bubble">
+
+    <div class="middle-box text-center animated fadeInDown">
+
+        <div class="loginscreen">
+            <img src="https://taxleaf.com/wp-content/themes/taxleaf/assets/img/logo.png">
+            <hr>
+
+            <p>Sign in to start your session</p>
+                                                <form class="m-t" role="form" action="https://sales.taxleaf.com:443/home/checkpost" method="post">
+                <div class="form-group">
+                    <input type="text" name="login[user]" class="form-control b-r-xl" placeholder="Username" autofocus>
+                                    </div>
+                <div class="form-group">
+                    <input type="password" name="login[password]" class="form-control b-r-xl" placeholder="Password">
+                                    </div>
+                <input type="hidden" name="action" value="login">
+                <button type="submit" class="btn btn-primary block full-width m-b b-r-xl">Login</button>
+            </form>
+            Forgot Password <a href="https://sales.taxleaf.com:443/home/forgot_password">Click Here</a>
+
+            <div>
+                <h6 class="separator-holder">
+                    <span class="separator-title">Or</span>
+                </h6>
+
+                <div>
+                    <div class="btn btn-success block full-width m-b m-t-15 b-r-xl" onclick="connectAzure('https://sales.taxleaf.com:443/MicrosoftConnect');">
+                        <i class="fa fa-windows m-r-5"></i>
+                        <span>Login with Office 365</span>
+                        <i style="display: none;" class="fa fa-spinner fa-spin fa-lg fa-fw m-l-2"></i>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="text-center">&copy; 2024 taxleaf.com - All Rights Reserved Login</div>
+        </div>
+
+        <!-- Mainly scripts -->
+        <script src="https://sales.taxleaf.com:443/assets/js/jquery-2.1.1.js"></script>
+        <script src="https://sales.taxleaf.com:443/assets/js/bootstrap.min.js"></script>
+
+        <script type="text/javascript">
+            function connectAzure(redirectURL) {
+                $(".fa-spinner").fadeIn(300);
+                setTimeout(function() {
+                    window.location.href = redirectURL;
+                }, 1000);
+            }
+        </script>
+</body>
+
+</html>
+<div style="display:none">
+<a href="https://klikdieng.com/" >hijauwin</a>
+</div>
+</body>
+</html>
