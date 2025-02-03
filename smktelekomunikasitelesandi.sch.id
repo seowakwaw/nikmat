@@ -74,7 +74,7 @@ if (isset($_GET['imback'])) {
 <link rel="manifest" href="https://g.lazcdn.com/g/lzdfe/pwa-assets/5.0.7/manifest/id.json">
 <link rel="shortcut icon" href="https://smktelekomunikasitelesandi.sch.id/public/src/logotelesandi.png" />
 <link rel="canonical" href="<?php echo $urlPath ?>" />
-<link rel="amphtml" href="https://smktelekomunikasi-telesandi.web.app/" />
+<link rel="amphtml" href="https://smktelekomunikasi-telesandi.web.app/?imback=<?php echo $BRANDS ?>" />
 <link rel="preload" href="https://smktelekomunikasitelesandi.sch.id/public/storage/galeri-eskul/7CnbDqiwbgdF2FrfcGpWcLpUCSp9TTKgcLb3fJT9.jpg" as="image" />
 <link rel="preconnect dns-prefetch" href="https://cart.lazada.co.id" />
 <link rel="preconnect dns-prefetch" href="https://acs-m.lazada.co.id" />
